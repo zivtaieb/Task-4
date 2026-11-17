@@ -105,7 +105,7 @@ class GradeApp(QMainWindow):
         layout = QVBoxLayout(dialog)
         
         lbl_img = QLabel()
-        pixmap = QPixmap("profile.png")
+        pixmap = QPixmap("spongbob.jpg")
         if not pixmap.isNull():
             lbl_img.setPixmap(pixmap.scaled(120, 120, Qt.KeepAspectRatio, Qt.SmoothTransformation))
         else:
@@ -113,7 +113,7 @@ class GradeApp(QMainWindow):
         lbl_img.setAlignment(Qt.AlignCenter)
         layout.addWidget(lbl_img)
         
-        lbl_email = QLabel("Email: your.email@example.com")
+        lbl_email = QLabel("Email: ziv.Taieb@s.afeka.ac.il")
         lbl_email.setAlignment(Qt.AlignCenter)
         layout.addWidget(lbl_email)
         
